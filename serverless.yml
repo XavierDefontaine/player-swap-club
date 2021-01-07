@@ -44,3 +44,17 @@ functions:
       - http:
         path: games
         method: post
+
+  get:
+    handler: get.main
+    events:
+      - http:
+        path: games/{id}
+        method: get
+  
+  list:
+    handler: list.main
+    events:
+      - http:
+        path: games
+        method: get
