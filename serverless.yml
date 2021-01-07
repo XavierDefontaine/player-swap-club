@@ -42,33 +42,33 @@ functions:
     handler: create.main
     events:
       - http:
-        path: games
-        method: post
+          path: games
+          method: post
 
   get:
     handler: get.main
     events:
       - http:
-        path: games/{id}
-        method: get
+          path: games/{id}
+          method: get
   
   list:
     handler: list.main
     events:
       - http:
-        path: games
-        method: get
+          path: games
+          method: get
 
   update:
     handler: update.main
     events:
       - http:
-        path: games/{id}
-        method: put
+          path: games/{id}
+          method: put
 
   delete:
     handler: delete.main
     events:
       - http:
-        path: games/{id}
-        method: delete
+          path: games/{id}
+          method: delete
