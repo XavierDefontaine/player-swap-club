@@ -14,7 +14,10 @@ I will be discovering the world of serverless on this project through AWS servic
 
 
 - Run and test a function:
-
 ```serverless invoke local --function delete --path tests/mocks/delete-event.json```
+
+- Deploy 1 function:
+```serverless deploy function -f list```
+
 
 
