@@ -58,3 +58,10 @@ functions:
       - http:
         path: games
         method: get
+
+  update:
+    handler: update.main
+    events:
+      - http:
+        path: games/{id}
+        method: put
