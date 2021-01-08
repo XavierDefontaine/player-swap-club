@@ -1,4 +1,4 @@
-org: xavierdefontaine
+# org: xavierdefontaine
 app: player-swap-club
 # NOTE: update this with your service name
 service: player-swap-api
@@ -22,7 +22,8 @@ provider:
   # under process.env.
   environment:
     tableName: games
-
+    stripeSecretKey: ${env:STRIPE_SECRET_KEY}
+    
   # 'iamRoleStatements' defines the permission policy for the Lambda function.
   # In this case Lambda functions are granted with permissions to access DynamoDB.
   iamRoleStatements:
@@ -76,4 +77,12 @@ functions:
       - http:
           path: games/{id}
           method: delete
+          authorizer: aws_iam
+
+  billing:
+    handler: billing.main
+    events:
+      - http:
+          path: billing
+          method: post
           authorizer: aws_iam
