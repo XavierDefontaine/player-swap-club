@@ -2,5 +2,10 @@
   "body": "{\"content\":\"Changed ya!\",\"attachment\":\"changed.jpg\"}",
   "pathParameters": {
     "id": "5159cbd0-50ee-11eb-9617-4397b7a48c1f"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
   }
 }

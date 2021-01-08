@@ -1,3 +1,8 @@
 {
-  "body": "{\"content\":\"Horizon Zero Dawn\",\"attachment\":\"hzd.jpg\"}"
+  "body": "{\"content\":\"Horizon Zero Dawn\",\"attachment\":\"hzd.jpg\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
 }
