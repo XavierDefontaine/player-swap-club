@@ -1,4 +1,4 @@
-# org: xavierdefontaine
+org: xavierdefontaine
 app: player-swap-club
 # NOTE: update this with your service name
 service: player-swap-api
