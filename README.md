@@ -4,7 +4,7 @@ A platform for likeminded players to swap games with each other through an autom
 
 ## About the Project
 
-I will be discovering the world of serverless on this project through AWS services (Lambdas, DynamoDb etc), consume APIs (RAWG for games data, CheapSark API pricing, shipping tbc), and deliver the front end via React.
+I will be discovering the world of serverless on this project through AWS services (Lambdas, DynamoDb etc), consume APIs (RAWG for games data, CheapShark API pricing, shipping tbc), and deliver the front end via React.
 
 
 
